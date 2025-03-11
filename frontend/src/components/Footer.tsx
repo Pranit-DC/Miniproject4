@@ -3,197 +3,105 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="px-28 pt-20 pb-10">
-      <div className="grid gap-10 grid-cols-[repeat(4,1fr)] max-md:grid-cols-[repeat(2,1fr)] max-sm:grid-cols-[1fr]">
-        <div>
-          <h3 className="mb-8 text-lg font-semibold">Solutions</h3>
-          <ul className="list-none p-0 m-0">
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Application Services
-              </a>
+    <footer className="box-border px-28 pt-20 pb-10 m-0">
+      <div className="box-border grid gap-10 p-0 m-0 grid-cols-[repeat(4,1fr)] max-md:grid-cols-[repeat(2,1fr)] max-sm:grid-cols-[1fr]">
+        <div className="box-border p-0 m-0">
+          <h3 className="box-border p-0 m-0 mb-8 text-lg font-semibold text-white">
+            Solutions
+          </h3>
+          <ul className="p-0 m-0 list-none">
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Application Services
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Security Servers
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Security Servers
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Security FireWalls
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Security FireWalls
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Cloud Services
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Cloud Services
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Integrations
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Integrations
             </li>
           </ul>
         </div>
-        <div>
-          <h3 className="mb-8 text-lg font-semibold">Partners</h3>
-          <ul className="list-none p-0 m-0">
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Amazon
-              </a>
+        <div className="box-border p-0 m-0">
+          <h3 className="box-border p-0 m-0 mb-8 text-lg font-semibold">
+            Partners
+          </h3>
+          <ul className="p-0 m-0 list-none">
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Amazon
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Figma
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Figma
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Twitter
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Twitter
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                CloudRail-IIOT
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              CloudRail-IIOT
             </li>
           </ul>
         </div>
-        <div>
-          <h3 className="mb-8 text-lg font-semibold">Resources</h3>
-          <ul className="list-none p-0 m-0">
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Academy
-              </a>
+        <div className="box-border p-0 m-0">
+          <h3 className="box-border p-0 m-0 mb-8 text-lg font-semibold">
+            Resources
+          </h3>
+          <ul className="p-0 m-0 list-none">
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Academy
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Blog
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Blog
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Themes
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Themes
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Hosting
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Hosting
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Developers
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Developers
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Support
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Support
             </li>
           </ul>
         </div>
-        <div>
-          <h3 className="mb-8 text-lg font-semibold">Company</h3>
-          <ul className="list-none p-0 m-0">
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                About Us
-              </a>
+        <div className="box-border p-0 m-0">
+          <h3 className="box-border p-0 m-0 mb-8 text-lg font-semibold">
+            Company
+          </h3>
+          <ul className="p-0 m-0 list-none">
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              About Us
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Careers
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Careers
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                FAQs
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              FAQs
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Teams
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Teams
             </li>
-            <li className="mb-4">
-              <a
-                href="#"
-                className="text-base cursor-pointer no-underline text-white hover:text-cyan-300"
-              >
-                Contact Us
-              </a>
+            <li className="box-border p-0 m-0 mb-4 text-base cursor-pointer">
+              Contact Us
             </li>
           </ul>
         </div>
       </div>
-      <div>
-        <div className="mx-0 mt-10 mb-6 h-px bg-zinc-300" aria-hidden="true" />
-        <div className="flex justify-between items-center">
-          <div className="text-sm text-gray-400">
+      <div className="box-border p-0 m-0">
+        <div className="box-border p-0 mx-0 mt-10 mb-6 h-px bg-zinc-300" />
+        <div className="box-border flex justify-between items-center p-0 m-0">
+          <p className="box-border p-0 m-0 text-sm text-neutral-200">
             © 2024 All Rights Reserved
-          </div>
-          <div className="flex gap-4">
-            <a href="#" aria-label="Facebook">
+          </p>
+          <div className="box-border flex gap-4 p-0 m-0">
+            <a href="#facebook" aria-label="Facebook">
               <svg
                 width="24"
                 height="24"
@@ -211,7 +119,7 @@ const Footer: React.FC = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#" aria-label="Twitter">
+            <a href="#twitter" aria-label="Twitter">
               <svg
                 width="24"
                 height="24"
@@ -235,7 +143,7 @@ const Footer: React.FC = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#" aria-label="Instagram">
+            <a href="#instagram" aria-label="Instagram">
               <svg
                 width="24"
                 height="24"
@@ -253,7 +161,7 @@ const Footer: React.FC = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#" aria-label="Figma">
+            <a href="#figma" aria-label="Figma">
               <svg
                 width="24"
                 height="24"

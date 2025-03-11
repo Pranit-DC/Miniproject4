@@ -9,9 +9,9 @@ import TestimonialsSection from "./TestimonialsSection";
 import CTASection from "./CTASection";
 import Footer from "./Footer";
 
-const CybersecurityLandingPage: React.FC = () => {
+const CybersecurityLanding: React.FC = () => {
   return (
-    <div className="bg-black text-white min-h-screen">
+    <div className="text-white bg-slate-900">
       <Header />
       <Hero />
       <ClientsSection />
@@ -24,4 +24,4 @@ const CybersecurityLandingPage: React.FC = () => {
   );
 };
 
-export default CybersecurityLandingPage;
+export default CybersecurityLanding;
