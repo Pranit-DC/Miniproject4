@@ -18,7 +18,7 @@ const AboutSection: React.FC = () => {
           ever-evolving threats in the digital landscape. With [X years/months]
           of experience in the cybersecurity industry, we have honed our
           expertise to deliver innovative solutions that safeguard your digital
-          assets and maintain your peace of mind.{" "}
+          assets and maintain your peace of .{" "}
         </span>
       </p>
       <div
